@@ -43,7 +43,7 @@ int main()
         int a, b, w;
         cin >> a >> b >> w;
         v[a].push_back({b, w});
-        v[b].push_back({a, w});
+        // v[b].push_back({a, w});
     }
     for (int i = 1; i <= n; i++)
     {
