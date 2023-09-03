@@ -15,7 +15,7 @@ int main()
     {
         // int choice1 = dp[i - 2] + abs(cost[i] - cost[i - 2]);
         // int choice2 = dp[i - 1] + abs(cost[i] - cost[i - 1]);
-        dp[i] = min(dp[i - 2] + abs(cost[i] - cost[i - 2]), dp[i - 1] + abs(cost[i] - cost[i - 1]));
+        dp[i] = min(dp[i - 2] + abs(cost[i] - cost[i - 2]), dp[i - 1] + abs(cost[i] - cost[i - 1])); // dp state
     }
     cout << dp[n] << endl;
     return 0;
